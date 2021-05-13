@@ -1,0 +1,22 @@
+{
+  "name": "automation_project",
+  "version": "1.0.0",
+  "description": "This project includes automation tests",
+  "main": "index.js",
+  "scripts": {
+    "cy": "cypress open",
+    "verify": "cypress verify"
+  },
+  "author": "secrieru erica secrieruerica@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.3.0",
+    "cypress-cucumber-preprocessor": "^4.1.0",
+    "cypress-file-upload": "^5.0.7",
+    "cypress-log-to-output": "^1.1.2"
+  },
+  "dependencies": {
+    "cypress-tags": "0.0.21",
+    "randomstring": "^1.2.1"
+  }
+}
