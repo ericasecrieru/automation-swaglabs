@@ -17,6 +17,6 @@ And('click on Login button', function () {
 })
 
 
-Then('A Epic sadface: Username and password do not match any user in this service message is displayed', function () {
-    cy.get(pageElems.message).should('have.text', 'Epic sadface: Username and password do not match any user in this service')
+Then('{string} message is displayed', function (message) {
+    cy.get(pageElems.message).should('have.text', message)
 })
